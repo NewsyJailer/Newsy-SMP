@@ -1,0 +1,243 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <title>Newsy SMP</title>
+</head>
+
+<body>
+    <div class="background"></div>
+
+    <div class="hero">
+    <img class="logo" src="images/logo.png" alt="Newsy SMP Logo">
+
+    <div>
+        <h1>Newsy SMP</h1>
+        <p>Official Website of Newsy SMP🫶🏾</p>
+
+        <div class="buttons">
+
+            <a href="#about" class="scroll-button">Learn More ↓</a>
+
+            <a href="https://discord.gg/Fx9pKGApqy" class="discord-button" target="_blank">
+                <img src="images/discord.png" alt="Discord">
+                Join Discord
+            </a>
+
+                </div>
+
+        <div class="server-status">
+            <div class="status-dot"></div>
+
+            <div>
+                <div class="status-title" id="player-count">
+                    Checking server...
+                </div>
+
+                <div class="server-address-row">
+    <div class="server-address">
+        NewsySMP.smpserver.net
+    </div>
+
+    <button class="copy-button" onclick="copyServerIP()">
+    <img src="images/copy.png" alt="Copy">
+</button>
+</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<section class="about" id="about">
+ <div class="about-text">
+
+    <h2>About Newsy SMP</h2>
+
+    <p class="about-intro">
+        Welcome to Newsy SMP 💚, we're an SMP that uses different mechanics each season to allow
+        different types of players to have their own fun.
+    </p>
+
+</div>
+
+<div class="game-carousel">
+
+    <button class="game-arrow prev" onclick="previousGameMode()">‹</button>
+
+    <div class="game-window">
+      <div class="game-track">
+        <div class="feature-card">
+          <h3>⚔️ Lifesteal</h3>
+          <p> Fight with others and steal their hearts. </p>
+        </div>
+        <div class="feature-card">
+          <h3>💪🏾 Strength</h3>
+          <p> Gain your strength by killing people. </p>
+        </div>
+        <div class="feature-card">
+          <h3>💎 Bliss</h3>
+          <p> Use your gem powers to defeat mobs and players! </p>
+        </div>
+        <div class="feature-card">
+          <h3>🏆 Ranked</h3>
+          <p> Climb the ranks to gain more hearts, bigger inventories and the most respect. </p>
+        </div>
+        <div class="feature-card">
+          <h3>🌐 Zone Wars</h3>
+          <p>The world shrinks until it's time to face off with your enemies.</p>
+        </div>
+      </div>
+        </div> <button class="game-arrow next" onclick="nextGameMode()">›</button>
+  </div>
+
+</section>
+
+<section class="rules" id="rules">
+
+    <h2>Welcome to Newsy SMP</h2>
+
+    <p class="rules-intro">
+        This section shows the rules for the server and the SMP!
+    </p>
+
+    <div class="rules-section">
+
+        <h3>» Server Rules</h3>
+
+        <div class="rule-card">
+            <h4>1. No discriminatory behavior</h4>
+            <p>Any behavior like this will result in a ban from the server.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>2. No sending NSFW or 18+ content</h4>
+            <p>This will result in a ban and a report to Discord for sending 18+ content.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>3. Don't spam ping anyone</h4>
+            <p>The only time pinging staff is acceptable is when it's justified. — Results in Timeout.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>4. Please don't self-promo, or promo in general unless in self-promo</h4>
+            <p>Will result in your message being taken down and a warning.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>5. Please show respect to all Staff</h4>
+            <p>If respect is not shown, you will be kicked or timed out.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>6. Don't make any threats at all</h4>
+            <p>Results in a ban and a report to Discord.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>7. Try to have a fun time in our server!</h4>
+        </div>
+
+    </div>
+
+
+    <div class="rules-section">
+
+        <h3>» SMP Rules</h3>
+
+        <div class="rule-card">
+            <h4>1. No cheating on the server</h4>
+            <p>This can result in a punishment from a temporary ban to a permanent ban.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>2. No Combat or Danger Logging</h4>
+            <p>Results in a temporary ban (up to 72 hours).</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>3. The Max Team Size is SIX</h4>
+            <p>If any team has more than six players, then that team will get timed out.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>4. No Discrimination</h4>
+            <p>If found guilty of this, you will be banned permanently &amp; reported to Microsoft. We take discrimination very seriously.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>5. No killing/farming Naked Players unless they have been on the server for more than 2 real-life days</h4>
+            <p>24 Hour Ban.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>6. Please respect our Staff Members</h4>
+            <p>If you are found being rude to a staff member for no reason, you will get a temporary ban.</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>7. Please respect other people</h4>
+            <p>You don't know what they could be going through. — Week Ban. (Trash talking another person is allowed.)</p>
+        </div>
+
+        <div class="rule-card">
+            <h4>8. Enjoy your time here at Newsy SMP!</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="socials" id="socials">
+
+    <h2>Connect With Newsy SMP</h2>
+
+    <p class="socials-intro">
+        Keep up with Newsy SMP, watch our content, and join the community!
+    </p>
+
+    <div class="social-cards">
+
+        <a href="https://www.youtube.com/@NewsySMP" class="social-card youtube" target="_blank">
+            <img src="images/youtube.png" alt="YouTube">
+
+            <div>
+                <h3>YouTube</h3>
+                <p>Watch Newsy SMP videos and more.</p>
+            </div>
+        </a>
+
+        <a href="https://www.tiktok.com/@newsysmp" class="social-card tiktok" target="_blank">
+            <img src="images/tiktok.png" alt="TikTok">
+
+            <div>
+                <h3>TikTok</h3>
+                <p>Watch Short clips from Newsy SMP</p>
+            </div>
+        </a>
+
+        <a href="https://discord.gg/Fx9pKGApqy" class="social-card discord-social" target="_blank">
+            <img src="images/discord.png" alt="Discord">
+
+            <div>
+                <h3>Discord</h3>
+                <p>Join the Newsy SMP community.</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+```
