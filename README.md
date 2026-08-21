@@ -1,1 +1,2 @@
-hey if your seeing this than your looking at the Newsy SMP websites github repo! Stop looking. and go back to the webite!
+Newsy SMP website 
+is tuff trusts
