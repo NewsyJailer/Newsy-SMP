@@ -33,7 +33,7 @@ async function updateServerStatus() {
 
     try {
         const response = await fetch(
-            "https://api.mcsrvstat.us/3/reminded-hayden.tun.ply.gg"
+            "https://api.mcstatus.io/v2/status/java/mc.newsysmp.online"
         );
 
         const data = await response.json();
@@ -53,16 +53,15 @@ async function updateServerStatus() {
 updateServerStatus();
 
 setInterval(updateServerStatus, 30000);
+
 function copyServerIP() {
-    const serverIP = "reminded-hayden.tun.ply.gg";
+    const serverIP = "mc.newsysmp.online";
     const button = document.querySelector(".copy-button");
 
     navigator.clipboard.writeText(serverIP).then(() => {
-        button.textContent = "✓";
         button.classList.add("copied");
 
         setTimeout(() => {
-            button.textContent = "📋";
             button.classList.remove("copied");
         }, 1500);
     });
