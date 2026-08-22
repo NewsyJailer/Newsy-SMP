@@ -33,7 +33,7 @@ async function updateServerStatus() {
 
     try {
         const response = await fetch(
-            "https://api.mcsrvstat.us/3/NewsySMP.smpserver.net"
+            "https://api.mcsrvstat.us/3/reminded-hayden.tun.ply.gg"
         );
 
         const data = await response.json();
@@ -54,7 +54,7 @@ updateServerStatus();
 
 setInterval(updateServerStatus, 30000);
 function copyServerIP() {
-    const serverIP = "NewsySMP.smpserver.net";
+    const serverIP = "reminded-hayden.tun.ply.gg";
     const button = document.querySelector(".copy-button");
 
     navigator.clipboard.writeText(serverIP).then(() => {
